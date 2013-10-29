@@ -1,0 +1,36 @@
+!!! 5
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='description', content='')
+		meta(name='author', content='')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/stylus.css')
+	body
+		.container
+			.header
+				.row-fluid
+					.span12
+						.row-fluid
+							.span3
+							.span6
+								ul.nav.nav-pills.pull-right
+									li.active
+										a(href='/') me.Home
+									li
+										a(href='#') me.Gallary
+									li
+										a(href='#') me.Contact
+								h1.text-muted Aloha, World
+			hr
+			.row-fluid
+				.span12
+					.row-fluid
+						.span3
+						.span6
+							block content
+
+							.footer
+							hr
+							p © Ding Ma 2013

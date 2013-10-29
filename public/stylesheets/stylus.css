@@ -1,0 +1,38 @@
+body.blog {
+  font-family: "Helvetica Neue", "Lucida Grande", "Arial";
+  font-size: 13px;
+  text-align: center;
+  text-stroke: 1px rgba(255,255,255,0.1);
+  color: #555;
+}
+h1 {
+  text-shadow: 1px 2px 2px #ddd;
+}
+.blog {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.blog .row-fluid {
+  margin-top: 20px;
+}
+.blog .article {
+  margin: 20px;
+}
+.blog .article .created_at {
+  display: none;
+  font-size: 8px;
+}
+.blog .article .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.blog .article .body {
+  margin-top: 10px;
+  background-color: #fff;
+}
+textarea {
+  resize: none;
+}
